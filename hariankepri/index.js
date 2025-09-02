@@ -1,7 +1,7 @@
 // Random AdSense Code Generator
 class RandomAdsManager {
     // Static variable untuk target element yang akan menampilkan iklan di bawahnya
-    static AUTO_PLACEMENT_TARGET = '#content'; // Ganti dengan selector yang Anda inginkan
+    static AUTO_PLACEMENT_TARGET = '.td-header-template-wrap'; // Ganti dengan selector yang Anda inginkan
 
     constructor() {
         this.adsenseCodes = [
